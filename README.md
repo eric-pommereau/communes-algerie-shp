@@ -1,5 +1,5 @@
 # communes-algerie-shp
-Créer un shape des communes d'Algérie d'OpenStreetMap
+Créer un shape des communes d'Algérie à partir des données d'OpenStreetMap
 
 ![Screenshot](/img/scr-communes-algerie-alger.jpg)
 ![Screenshot](/img/scr-communes-algerie-global.jpg)
@@ -32,5 +32,5 @@ ogr2ogr -f "ESRI Shapefile" datas/communes_algerie.shp PG:"dbname=osm" -sql "sel
 ```
 
 ## Création du geojson simplifié
-Import manuel dans mapshape http://mapshaper.org/ puis sauvegarde en geojson.
+Import manuel dans mapshaper http://mapshaper.org/ puis sauvegarde en geojson.
 
