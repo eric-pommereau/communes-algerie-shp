@@ -1,0 +1,1 @@
+/Library/Frameworks/GDAL.framework/Versions/1.11/Programs/ogr2ogr -f "ESRI Shapefile" datas/communes_algerie.shp PG:"dbname=osm" -sql "select osm_id, name, wkb_geometry as geom from multipolygons where admin_level = '7'" 
