@@ -1,6 +1,10 @@
 # communes-algerie-shp
 Créer un shape des communes d'Algérie à partir des données d'OpenStreetMap
 
+## Fichiers : 
+* ShapeFile : https://github.com/eric-pommereau/communes-algerie-shp/raw/master/dist/communes_algerie_2016-10.zip
+* GeoJson : https://github.com/eric-pommereau/communes-algerie-shp/raw/master/dist/communes_algerie_simplif.geojson
+
 ![Screenshot](/img/scr-communes-algerie-alger.jpg)
 ![Screenshot](/img/scr-communes-algerie-global.jpg)
 
